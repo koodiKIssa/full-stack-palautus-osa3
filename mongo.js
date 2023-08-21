@@ -12,7 +12,7 @@ const number = process.argv[4]
 console.log(name, number)
 
 const url =
-    `mongodb+srv://uipathtestitili:${password}@cluster1.fo89s22.mongodb.net/phonebook?retryWrites=true&w=majority`
+    ``
 
 mongoose.set('strictQuery', false)
 mongoose.connect(url)
